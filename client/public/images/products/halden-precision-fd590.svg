@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<defs>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3"/></filter>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="0.15">
+<stop offset="0" stop-color="#F2F5F7"/><stop offset="0.55" stop-color="#E3E8EC"/><stop offset="1" stop-color="#CDD4DA"/></linearGradient>
+<linearGradient id="g-h" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8F9AA4"/><stop offset="0.5" stop-color="#EEF1F3"/><stop offset="1" stop-color="#8F9AA4"/></linearGradient>
+<linearGradient id="g-hh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EEF1F3"/><stop offset="1" stop-color="#8F9AA4"/></linearGradient>
+<linearGradient id="g-gloss" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.18" stop-color="#fff" stop-opacity="0.38"/><stop offset="0.32" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<pattern id="g-brush" width="6" height="800" patternUnits="userSpaceOnUse"><rect width="6" height="800" fill="none"/><line x1="1" y1="0" x2="1" y2="800" stroke="#fff" stroke-opacity="0.07"/><line x1="4" y1="0" x2="4" y2="800" stroke="#000" stroke-opacity="0.025"/></pattern>
+</defs>
+<ellipse cx="400" cy="728" rx="188.8246384976526" ry="16" fill="#0B1420" opacity="0.22" filter="url(#blur)"/>
+<path d="M533.4324882629109 110.15774647887315 L571.1233802816902 118.15774647887315 L571.1233802816902 716 L533.4324882629109 720 Z" fill="#B7C0C8" stroke="#A9B3BC" stroke-width="1"/><rect x="228.87661971830985" y="104.15774647887315" width="304.55586854460097" height="615.8422535211268" rx="8" fill="#A9B3BC"/><rect x="228.87661971830985" y="104.15774647887315" width="150.77793427230048" height="381.82219718309864" rx="6" fill="url(#g)" stroke="#A9B3BC" stroke-width="1.5"/>
+<rect x="228.87661971830985" y="104.15774647887315" width="150.77793427230048" height="381.82219718309864" rx="6" fill="url(#g-brush)"/>
+<rect x="228.87661971830985" y="104.15774647887315" width="150.77793427230048" height="381.82219718309864" rx="6" fill="url(#g-gloss)"/><rect x="382.65455399061034" y="104.15774647887315" width="150.77793427230048" height="381.82219718309864" rx="6" fill="url(#g)" stroke="#A9B3BC" stroke-width="1.5"/>
+<rect x="382.65455399061034" y="104.15774647887315" width="150.77793427230048" height="381.82219718309864" rx="6" fill="url(#g-brush)"/>
+<rect x="382.65455399061034" y="104.15774647887315" width="150.77793427230048" height="381.82219718309864" rx="6" fill="url(#g-gloss)"/><rect x="361.65455399061034" y="149.976410140845" width="9" height="267.275538028169" rx="4.5" fill="url(#g-h)"/><rect x="362.65455399061034" y="149.976410140845" width="2" height="267.275538028169" rx="1" fill="#fff" opacity="0.35"/><rect x="391.65455399061034" y="149.976410140845" width="9" height="267.275538028169" rx="4.5" fill="url(#g-h)"/><rect x="392.65455399061034" y="149.976410140845" width="2" height="267.275538028169" rx="1" fill="#fff" opacity="0.35"/><rect x="465.5824178403756" y="126.15774647887315" width="46" height="16" rx="4" fill="#0E1621" opacity="0.92"/><circle cx="475.5824178403756" cy="134.15774647887315" r="2.4" fill="#43D5C2"/><rect x="482.5824178403756" y="132.15774647887315" width="22" height="4" rx="2" fill="#43D5C2" opacity="0.65"/><rect x="228.87661971830985" y="488.9799436619718" width="304.55586854460097" height="231.0200563380282" rx="6" fill="url(#g)" stroke="#A9B3BC" stroke-width="1.5"/>
+<rect x="228.87661971830985" y="488.9799436619718" width="304.55586854460097" height="231.0200563380282" rx="6" fill="url(#g-brush)"/>
+<rect x="228.87661971830985" y="488.9799436619718" width="304.55586854460097" height="231.0200563380282" rx="6" fill="url(#g-gloss)"/><rect x="289.78779342723004" y="502.9799436619718" width="182.73352112676056" height="9" rx="4.5" fill="url(#g-hh)"/><rect x="238.87661971830985" y="718" width="284.55586854460097" height="10" rx="3" fill="#1A222C" opacity="0.65"/>
+</svg>

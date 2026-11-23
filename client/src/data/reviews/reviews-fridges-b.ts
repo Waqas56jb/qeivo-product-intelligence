@@ -1,0 +1,135 @@
+import type { ReviewRowSet } from "./review-rows";
+
+/** Hand-written owner reviews — later Solenne, Maru, Brightwater, Corvane and Ovea refrigerators. */
+export const fridgeReviewsB: ReviewRowSet = {
+  "solenne-rivoli-qd700": [
+    [5, "An absolute statement piece", "702 litres across four doors, door-in-door, convertible drawer — it does everything. We redesigned the kitchen around it and have no regrets.", "8 months", "+Capacity,+Design,+Convertible zone", { photo: true }],
+    [4, "Feature-packed but thirsty", "Rated E at 398 kWh a year — not great for a $4,299 fridge. The convertible zone and dispenser are excellent though, and it holds temperature well.", "1 year", "-Energy use,+Convertible zone,+Water dispenser"],
+    [4, "Hard to find long-term reviews", "I took a chance as there wasn't much owner feedback yet. Six months in, no issues. The app is pretty but slow to connect.", "6 months", "-App,+Build quality,+Design", { unverified: true, reply: "Thanks for taking a chance on the QD700. App version 3.1 has significantly improved connection time; please update from your app store and let our concierge team know if it is still slow." }],
+    [2, "Premium price, patchy aftercare", "The ice maker stopped working at four months and the first available engineer was three weeks out. At $4,299 I expected concierge-level service. When everything works it's a superb fridge.", "6 months", "-Ice maker,-Support,+Capacity"],
+    [5, "Entertaining made easy", "We host most weekends and the four doors plus convertible drawer mean platters, drinks and desserts each have a home. Temperature control has been spot on.", "1 year", "+Convertible zone,+Capacity,+Temperature stability"],
+  ],
+  "solenne-capri-u140": [
+    [5, "Under-counter wine and cheese fridge", "We use it purely for wine, cheese and charcuterie. No freezer means all 138 litres is usable. Inverter compressor is whisper quiet at 36 dB.", "1 year", "+Quiet,+Design,+Capacity"],
+    [4, "Beautifully made, pricey", "$1,199 is a lot for a compact fridge, but the stainless finish and soft-close door feel premium. Fits under our island perfectly at 820 mm tall.", "9 months", "+Fit,+Build quality,-Value"],
+    [4, "Perfect for a home bar", "Quiet mode is handy when we watch films in the same room. The interior light is lovely and soft. No freezer at all, so check that suits you.", "7 months", "+Quiet,+Lighting,-No freezer"],
+  ],
+  "maru-smartview-fd620": [
+    [5, "The tech actually helps", "The interior camera lets me check what we're out of from the supermarket aisle. 618 litres, door-in-door and a convertible zone — this fridge does a lot.", "1 year", "+App,+Capacity,+Door-in-door", { photo: true, video: true }],
+    [4, "Graphite finish is stunning", "Matte graphite looks fantastic and hides fingerprints better than black stainless. Ice maker had one jam in the first year, fixed by clearing the chute.", "10 months", "+Design,-Ice maker,+Layout"],
+    [4, "App disconnects occasionally", "After we changed our router the fridge dropped off Wi-Fi and needed a re-pair. Minor annoyance on a great fridge — cooling is excellent and it's quiet.", "8 months", "-App,+Quiet,+Temperature stability", { reply: "Thanks for flagging this. Firmware 4.2, rolling out this month, keeps the fridge paired through router changes. You can update from Settings > Device in the Maru Home app." }],
+    [5, "Great for a busy family", "Two kids under ten and the door-in-door has cut the number of times the main door is open. Fast cooling after a big shop.", "1 year", "+Door-in-door,+Capacity,+Cooling"],
+    [4, "Bought on the price drop", "Paid $2,799 instead of $2,999. 735 mm deep, so it sits proud of our counters, but inside is beautifully organised.", "6 months", "+Value,-Depth,+Layout"],
+    [2, "The smart features stopped being smart", "The interior camera stopped uploading after a firmware update and the app now shows 'device offline' most days. For a $2,800 fridge sold on its smarts, that's frustrating. The cooling itself is fine.", "10 months", "-App,-Camera,+Cooling"],
+    [5, "Best kitchen purchase in years", "We use the convertible drawer as a dedicated drinks zone and the door-in-door means the kids barely open the main door. Quiet, steady and still looks new after a year of family life.", "1 year", "+Convertible zone,+Door-in-door,+Quiet"],
+  ],
+  "maru-smartview-cd540": [
+    [4, "Smart and slim", "Counter-depth at 620 mm with all the Maru smart features. The dispenser eats into the door shelving, but we expected that.", "1 year", "+Fit,+App,-Door bins"],
+    [5, "Looks integrated", "Lines up perfectly with our cabinets, graphite finish is classy. Quiet at 36 dB. We love it.", "8 months", "+Design,+Quiet,+Fit", { photo: true }],
+    [4, "Good but tight inside", "538 litres sounds plenty, but the shallow shelves mean big platters don't fit. Great fridge for everyday use though.", "5 months", "-Shelf depth,+Build quality,+Crispers"],
+  ],
+  "maru-flex-qd640": [
+    [5, "Flexible four-door at a fair price", "$2,499 for 641 litres with a convertible zone — great value compared with other four-doors. Ice maker is reliable.", "1 year", "+Value,+Convertible zone,+Ice maker"],
+    [4, "Love the layout", "Everything at eye height, the two lower drawers are perfect for meat and drinks. App is fine. Slightly noisy defrost cycle.", "7 months", "+Layout,-Noise,+App"],
+    [4, "Solid all-rounder", "No complaints really. Energy use is average for the size. Customer service was quick when a shelf clip cracked.", "1 year", "+Support,+Capacity,-Energy use"],
+    [3, "Dispenser drips", "After a few months the water dispenser started dripping onto the tray. Maru sent a new valve under warranty. Fridge works well otherwise.", "10 months", "-Water dispenser,+Support,+Cooling", { reply: "We're sorry about the dispenser drip and glad the replacement valve resolved it. If it ever returns, our service team will arrange an in-home visit at no cost under warranty." }],
+  ],
+  "maru-panel-bf360": [
+    [5, "Quiet, efficient and connected", "Class C at 214 kWh, 35 dB, and it still has Wi-Fi — rare in a 595 mm bottom freezer. Ideal for our apartment.", "1 year", "+Energy use,+Quiet,+App"],
+    [5, "Fits a European-size gap", "595 mm wide slots into our standard gap with room to spare. Dual cooling keeps the freezer frost-free and smells separate.", "2 years", "+Fit,+Dual cooling,+Reliability", { photo: true }],
+    [4, "Great value", "At $1,149 it's a lot of fridge for the money. White finish is a little plain, but it's practical.", "1 year", "+Value,-Design,+Crispers"],
+    [4, "Reliable workhorse", "Two years in, no issues. Door bins could be deeper. The app is basic but the open-door alert is useful.", "2 years", "+Reliability,-Door bins,+App"],
+  ],
+  "maru-flex-sbs660": [
+    [4, "Big side-by-side for big families", "661 litres, door-in-door, dispenser — and on sale it was $1,899. It's 38 dB, audible but fine in our kitchen.", "1 year", "+Capacity,+Value,+Door-in-door"],
+    [4, "Black finish shows marks", "Looks sleek but shows every fingerprint. Wipes clean easily. Cooling has been perfect.", "8 months", "-Fingerprints,+Cooling,+Design"],
+    [4, "Narrow fridge side", "Side-by-sides always have this problem — a sheet pan won't fit. Freezer space is huge though.", "1 year", "-Shelf width,+Freezer space,+Ice maker"],
+    [3, "Energy use higher than expected", "Class E at 408 kWh a year. Our energy monitor shows even a bit more than that in summer. Otherwise a good fridge.", "18 months", "-Energy use,+Capacity", { reply: "Thank you for monitoring this so carefully. Summer consumption rises with room temperature; keeping 50 mm clearance at the back and setting the fridge to 4 °C rather than 2 °C typically brings it close to the label figure." }],
+    [5, "Ice and water for a house of six", "With four kids the dispenser runs constantly and the ice bin has never run dry, even through a heatwave birthday party. The door-in-door keeps the drinks shelf separate, so the main fridge stays cold.", "1 year", "+Ice maker,+Door-in-door,+Capacity"],
+  ],
+  "maru-cube-c120": [
+    [5, "Quietest mini fridge I've owned", "Inverter compressor makes a big difference — I keep it in my bedroom and can sleep with it running. 122 litres is plenty for one.", "8 months", "+Quiet,+Capacity,+Value"],
+    [4, "Great office fridge", "We bought it for our team of five. Holds lunches easily. Small freezer is just for ice.", "1 year", "+Capacity,-Freezer space,+Value"],
+    [4, "Good value at $399", "Well built for the price, door reversed easily. Wish the shelves were adjustable to more positions.", "6 months", "+Value,+Reversible doors,-Layout", { unverified: true }],
+    [3, "Freezer box frosts fast", "The 12 litre freezer section frosts over within a month and the door then doesn't seal properly. Fridge section is quiet and cold. Fine for drinks, not for frozen food.", "6 months", "-Freezer space,-Defrosting,+Quiet"],
+    [5, "Silent in a bedroom office", "I keep it next to my desk and genuinely forget it's running. Holds a week of lunches and drinks, and the reversible door suited my corner perfectly.", "1 year", "+Quiet,+Reversible doors,+Value"],
+  ],
+  "brightwater-family-fd560": [
+    [5, "Family fridge done right", "Four of us and the 562 litres means the weekly shop fits without stacking. Dispenser is the kids' favourite feature. Very steady temperatures.", "1 year", "+Capacity,+Water dispenser,+Temperature stability", { photo: true }],
+    [4, "Good value French door", "Bought on offer at $1,899. Build quality is good, not luxurious. Ice maker is reliable.", "2 years", "+Value,+Ice maker,-Build quality"],
+    [5, "Crispers are fantastic", "Humidity drawers keep veg for over a week. Our grocery waste has dropped noticeably.", "1 year", "+Crispers,+Freshness,+Layout"],
+    [4, "Deep shelves, deep cabinet", "720 mm deep means it protrudes a bit, but shelves are roomy. It hums at 37 dB — not silent, not loud.", "8 months", "-Depth,+Capacity,-Noise"],
+    [3, "Ice maker struggles in summer", "Ice production slows right down on hot days when the kids are filling bottles constantly. Fridge cooling itself has been fine.", "14 months", "-Ice maker,+Cooling,+Capacity", { reply: "Thank you for the feedback. Selecting 'Ice Plus' from the control panel boosts production by around 30% for 24 hours — ideal for hot weekends. Our care team can share more tips." }],
+  ],
+  "brightwater-family-bf440": [
+    [5, "Best value fridge-freezer out there", "438 litres, inverter, dual cooling, under $1,000 on sale. It's quiet and has been flawless for two years.", "2 years", "+Value,+Quiet,+Reliability", { photo: true }],
+    [5, "Ideal for a family of four", "The freezer drawers are deep and well organised, the fridge has plenty of shelf space. Reversed the doors easily.", "1 year", "+Capacity,+Freezer drawers,+Reversible doors"],
+    [4, "Tall — check your clearance", "At 1,950 mm it barely fit under our cabinet. Make sure you allow for ventilation. Otherwise excellent.", "8 months", "-Height,+Capacity,+Value"],
+    [5, "Bought for a rental, then one for us", "Tenants loved it so much I bought one for our own home. Reliable, efficient, easy to clean.", "18 months", "+Reliability,+Value,+Cleaning"],
+    [4, "Good but plain", "Gloss white is a bit basic in a modern kitchen. Performance is great though, and running costs are low at 258 kWh a year.", "1 year", "-Design,+Energy use,+Cooling"],
+  ],
+  "brightwater-studio-tf310": [
+    [4, "Perfect for a small flat", "600 mm wide, 312 litres, $599. Does exactly what I need as a single renter. A little noisy at night.", "1 year", "+Value,+Fit,-Noise"],
+    [5, "Bought three for our student lets", "Reliable, cheap, easy to clean, and tenants never report faults. Reversible doors help in awkward kitchens.", "2 years", "+Value,+Reliability,+Reversible doors"],
+    [4, "Basic but solid", "No frills at all. Freezer on top is small at 86 litres. Fine for a couple.", "1 year", "+Reliability,-Freezer space,+Value"],
+    [4, "Good second fridge", "We use it in the utility room for drinks and overflow. Ideal for that role.", "18 months", "+Value,+Capacity"],
+    [3, "Freezer is tiny for two", "The 86 litre freezer fills with two weeks of shopping, and the compressor hum is noticeable at night in our flat. It's honest value at $599, but I'd stretch to a bigger model next time.", "1 year", "-Freezer space,-Noise,+Value"],
+  ],
+  "brightwater-family-sbs600": [
+    [4, "Affordable side-by-side", "$1,499 for 598 litres with a dispenser. It's loud at 40 dB and rated F, but you get a lot of fridge.", "1 year", "+Value,-Noise,-Energy use"],
+    [4, "Filter is easy to change", "The non-plumbed water tank means no plumber needed. Filter changes every six months take a minute.", "8 months", "+Installation,+Water dispenser,-Filter cost"],
+    [3, "Fingerprints and noise", "Black finish smudges constantly and the compressor is audible across the kitchen. Cooling is fine.", "1 year", "-Fingerprints,-Noise,+Cooling", { reply: "Thanks for the feedback. A microfibre cloth with a drop of water is the best way to keep the black finish clean. If the compressor has become louder since installation, please contact us — a quick check of the levelling feet often helps." }],
+    [2, "Arrived with a dented door", "The delivery crew left before we unwrapped it and the freezer door had a fist-sized dent. Getting a replacement took two weeks of calls, and in the meantime we lived out of a cool box. The new unit works but it's loud.", "2 months", "-Delivery,-Support,-Noise"],
+    [5, "Huge storage for a modest price", "We needed lots of freezer space on a budget and this delivers 221 litres of it. The water tank fills from the top, so no plumber required.", "1 year", "+Freezer space,+Value,+Installation"],
+    [5, "Reliable for our holiday let", "Guests love the chilled water and it has survived two busy summer seasons without a callout. Easy to wipe down between bookings.", "2 years", "+Reliability,+Water dispenser,+Cleaning"],
+  ],
+  "brightwater-larder-c385": [
+    [5, "Larder fridge heaven", "385 litres with no freezer — everything at eye level. Rated B and very quiet. We paired it with a chest freezer in the garage.", "1 year", "+Capacity,+Energy use,+Quiet", { photo: true }],
+    [4, "Great value tall fridge", "$849 for a full-height larder fridge is excellent. Humidity drawer is a nice touch. Silver finish is fine.", "8 months", "+Value,+Crispers,-Design"],
+    [5, "Ideal for a vegetarian household", "We eat mostly fresh produce, so no freezer suits us. Food stays fresh for ages and it's barely audible.", "2 years", "+Freshness,+Quiet,+Reliability"],
+  ],
+  "corvane-pro-fd650": [
+    [5, "Professional feel at home", "Heavy doors, metal shelving, 652 litres and a twelve-year compressor warranty. It feels like it will last decades.", "1 year", "+Build quality,+Warranty,+Capacity", { photo: true }],
+    [4, "Big and serious", "770 mm deep, so it dominates the kitchen. Convertible drawer is excellent for brining and thawing.", "8 months", "-Depth,+Convertible zone,+Build quality"],
+    [5, "Worth the investment", "$3,999 is a lot, but the three-year full warranty and the quality make it worth it. Ice maker is fast.", "1 year", "+Warranty,+Ice maker,+Build quality"],
+  ],
+  "corvane-pro-column-r480": [
+    [5, "The dream column fridge", "760 mm wide and 2,130 mm tall — it's a commercial-grade cold room in our kitchen. Rated B and silent at 34 dB.", "10 months", "+Capacity,+Quiet,+Build quality", { photo: true }],
+    [4, "Exceptional but costly", "$5,499 for a fridge with no freezer is a big ask. It is, however, the best fridge I've ever used.", "1 year", "-Value,+Build quality,+Temperature stability"],
+    [5, "Installer-friendly", "Our kitchen fitter was impressed with the anti-tip kit and levelling feet. Temperatures hold perfectly.", "6 months", "+Installation,+Temperature stability,+Design", { video: true }],
+  ],
+  "corvane-chef-sbs700": [
+    [5, "Massive capacity", "702 litres in a side-by-side, with a 252 L freezer. We cater for big family events and it handles it all.", "1 year", "+Capacity,+Freezer space,+Build quality"],
+    [4, "Pro looks, average efficiency", "Rated E at 438 kWh — not great. But it's beautifully made and the dispenser is excellent.", "18 months", "-Energy use,+Water dispenser,+Design"],
+    [4, "Good on sale", "At $2,899 down from $3,199 it was a decent deal. Fridge side is narrow as always with side-by-sides.", "8 months", "+Value,-Shelf width,+Build quality"],
+    [3, "Big and solid, thirsty to run", "It's built like a commercial unit, but our energy monitor shows close to the 438 kWh label figure, which is a lot. The fridge side is too narrow for a sheet tray. Good, not great.", "1 year", "-Energy use,-Shelf width,+Build quality"],
+    [5, "Professional kitchen at home", "I cook for a living and this is the first domestic fridge that keeps up with my prep. Heavy-duty bins, steady temperatures and a twelve-year compressor warranty.", "1 year", "+Build quality,+Temperature stability,+Warranty"],
+  ],
+  "corvane-pro-qd690": [
+    [5, "Every feature you could want", "Door-in-door, convertible zone, dual cooling, quiet mode — and the twelve-year compressor warranty. It's a beast.", "10 months", "+Warranty,+Convertible zone,+Door-in-door", { photo: true }],
+    [4, "Complex but brilliant", "There are a lot of settings to learn. Once set up, it's excellent. The app could be more intuitive.", "1 year", "-App,+Temperature stability,+Capacity", { reply: "We appreciate the review. Our new Quick Start guide in the Corvane app walks through the most-used settings in five minutes — you'll find it under Help > Getting started." }],
+    [4, "Few owner reviews yet", "I couldn't find many long-term reviews before buying. So far, so good — quiet and steady.", "6 months", "+Quiet,+Build quality,-Evidence", { unverified: true }],
+  ],
+  "ovea-eco-bf370": [
+    [5, "The most efficient fridge I've had", "Rated A at 146 kWh a year — our energy monitor shows even less. Silent at 32 dB. Three-year warranty.", "1 year", "+Energy use,+Quiet,+Warranty", { photo: true }],
+    [5, "Eco and practical", "Bought for the efficiency, stayed for the build. Crispers and fast freeze both work great.", "1 year", "+Energy use,+Crispers,+Fast freeze"],
+    [4, "Fits a standard gap", "595 mm wide, fits like a glove. Interior is slightly smaller than some competitors but it's well laid out.", "8 months", "+Fit,-Capacity,+Layout"],
+    [4, "Tiny bills, tiny gripe", "Running costs are tiny. Door bins are a bit shallow for big juice bottles.", "6 months", "+Energy use,-Door bins,+Quiet"],
+  ],
+  "ovea-eco-fd520": [
+    [5, "French door that fits a narrow gap", "Only 836 mm wide — rare for a French door. We could finally have the layout we wanted. Rated B and very quiet.", "1 year", "+Fit,+Energy use,+Quiet", { photo: true }],
+    [5, "Efficient and elegant", "228 kWh a year for 521 litres is remarkable. The app is simple and the crispers are excellent.", "10 months", "+Energy use,+Crispers,+App"],
+    [4, "No dispenser", "Note there's no water dispenser or ice maker. We use a filter jug instead. Fridge itself is excellent.", "8 months", "-No dispenser,+Build quality,+Quiet", { reply: "Thanks for highlighting this. We left the dispenser off the Eco FD520 to maximise efficiency and door storage; the slim filter jug that fits the door bin is available from the Ovea parts store." }],
+    [4, "A bit pricey", "$2,099 for 521 litres. You're paying for efficiency and quality. I think it's worth it.", "6 months", "-Value,+Energy use,+Build quality"],
+  ],
+  "ovea-terra-tf300": [
+    [5, "Sage green is lovely", "Our kitchen is all wood and greens — this fits perfectly. Rated B at 168 kWh, very quiet.", "1 year", "+Design,+Energy use,+Quiet", { photo: true }],
+    [4, "Compact and efficient", "298 litres is enough for a couple. Freezer on top is small but fine.", "8 months", "+Energy use,-Freezer space,+Fit"],
+    [4, "Short — good for low ceilings", "At 1,650 mm tall it fit under our sloping ceiling. Three-year warranty is a bonus.", "1 year", "+Fit,+Warranty,+Design"],
+  ],
+  "ovea-eco-c160": [
+    [5, "Silent compact fridge", "At 33 dB it's the quietest compact I've owned. Perfect for my granny flat.", "8 months", "+Quiet,+Fit,+Energy use", { photo: true }],
+    [4, "Efficient under-counter", "Rated B at 98 kWh, cheap to run. Small freezer box is fine for ice and a few portions.", "1 year", "+Energy use,-Freezer space,+Value"],
+    [5, "Great for a holiday cottage", "Quiet mode means guests sleeping nearby aren't disturbed. Reversed the door easily.", "6 months", "+Quiet,+Reversible doors,+Fit"],
+  ],
+};

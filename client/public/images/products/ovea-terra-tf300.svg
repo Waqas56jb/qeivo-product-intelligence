@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<defs>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3"/></filter>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="0.15">
+<stop offset="0" stop-color="#C8D5C2"/><stop offset="0.55" stop-color="#B5C5AE"/><stop offset="1" stop-color="#9FB298"/></linearGradient>
+<linearGradient id="g-h" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#D9DDD6"/><stop offset="0.5" stop-color="#F4F5F2"/><stop offset="1" stop-color="#D9DDD6"/></linearGradient>
+<linearGradient id="g-hh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4F5F2"/><stop offset="1" stop-color="#D9DDD6"/></linearGradient>
+<linearGradient id="g-gloss" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.18" stop-color="#fff" stop-opacity="0.38"/><stop offset="0.32" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<pattern id="g-brush" width="6" height="800" patternUnits="userSpaceOnUse"><rect width="6" height="800" fill="none"/><line x1="1" y1="0" x2="1" y2="800" stroke="#fff" stroke-opacity="0.07"/><line x1="4" y1="0" x2="4" y2="800" stroke="#000" stroke-opacity="0.025"/></pattern>
+</defs>
+<ellipse cx="400" cy="728" rx="124.14437558685447" ry="16" fill="#0B1420" opacity="0.22" filter="url(#blur)"/>
+<path d="M483.1555305164319 170.73239436619713 L517.0773333333333 178.73239436619713 L517.0773333333333 716 L483.1555305164319 720 Z" fill="#93A68C" stroke="#869A80" stroke-width="1"/><rect x="282.92266666666666" y="164.73239436619713" width="200.23286384976527" height="555.2676056338029" rx="8" fill="#869A80"/><rect x="282.92266666666666" y="164.73239436619713" width="200.23286384976527" height="166.58028169014085" rx="6" fill="url(#g)" stroke="#869A80" stroke-width="1.5"/>
+
+<rect x="282.92266666666666" y="164.73239436619713" width="200.23286384976527" height="166.58028169014085" rx="6" fill="url(#g-gloss)"/><rect x="282.92266666666666" y="334.312676056338" width="200.23286384976527" height="385.687323943662" rx="6" fill="url(#g)" stroke="#869A80" stroke-width="1.5"/>
+
+<rect x="282.92266666666666" y="334.312676056338" width="200.23286384976527" height="385.687323943662" rx="6" fill="url(#g-gloss)"/><rect x="296.92266666666666" y="223.0354929577464" width="9" height="91.61915492957748" rx="4.5" fill="url(#g-h)"/><rect x="297.92266666666666" y="223.0354929577464" width="2" height="91.61915492957748" rx="1" fill="#fff" opacity="0.35"/><rect x="296.92266666666666" y="352.312676056338" width="9" height="136.0405633802817" rx="4.5" fill="url(#g-h)"/><rect x="297.92266666666666" y="352.312676056338" width="2" height="136.0405633802817" rx="1" fill="#fff" opacity="0.35"/><rect x="292.92266666666666" y="718" width="180.23286384976527" height="10" rx="3" fill="#1A222C" opacity="0.65"/>
+</svg>

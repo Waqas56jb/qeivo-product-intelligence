@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<defs>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3"/></filter>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="0.15">
+<stop offset="0" stop-color="#FFFFFF"/><stop offset="0.55" stop-color="#F6F8F9"/><stop offset="1" stop-color="#E8ECEF"/></linearGradient>
+<linearGradient id="g-h" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#BCC5CC"/><stop offset="0.5" stop-color="#F4F6F8"/><stop offset="1" stop-color="#BCC5CC"/></linearGradient>
+<linearGradient id="g-hh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4F6F8"/><stop offset="1" stop-color="#BCC5CC"/></linearGradient>
+<linearGradient id="g-gloss" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.18" stop-color="#fff" stop-opacity="0.38"/><stop offset="0.32" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<pattern id="g-brush" width="6" height="800" patternUnits="userSpaceOnUse"><rect width="6" height="800" fill="none"/><line x1="1" y1="0" x2="1" y2="800" stroke="#fff" stroke-opacity="0.07"/><line x1="4" y1="0" x2="4" y2="800" stroke="#000" stroke-opacity="0.025"/></pattern>
+</defs>
+<ellipse cx="400" cy="728" rx="163.93615023474183" ry="16" fill="#0B1420" opacity="0.22" filter="url(#blur)"/>
+<path d="M509.89971830985917 317.3615023474178 L554.513427230047 325.3615023474178 L554.513427230047 716 L509.89971830985917 720 Z" fill="#DCE2E6" stroke="#CDD5DB" stroke-width="1"/><rect x="245.486572769953" y="311.3615023474178" width="264.41314553990617" height="408.6384976525822" rx="8" fill="#CDD5DB"/><rect x="245.486572769953" y="311.3615023474178" width="264.41314553990617" height="408.6384976525822" rx="6" fill="url(#g)" stroke="#CDD5DB" stroke-width="1.5"/>
+
+<rect x="245.486572769953" y="311.3615023474178" width="264.41314553990617" height="408.6384976525822" rx="6" fill="url(#g-gloss)"/><rect x="483.89971830985917" y="384.9164319248826" width="9" height="245.1830985915493" rx="4.5" fill="url(#g-h)"/><rect x="484.89971830985917" y="384.9164319248826" width="2" height="245.1830985915493" rx="1" fill="#fff" opacity="0.35"/><rect x="255.486572769953" y="718" width="244.41314553990617" height="10" rx="3" fill="#1A222C" opacity="0.65"/>
+</svg>

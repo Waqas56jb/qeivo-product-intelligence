@@ -1,0 +1,188 @@
+import type { ResearchProject } from "@/types";
+
+export const projects: ResearchProject[] = [
+  {
+    id: "prj-1",
+    name: "Cedar Court refurbishment — refrigerators",
+    description: "Replace refrigerators in 64 one- and two-bedroom units at Cedar Court. Openings are 700 mm wide; units are let furnished, so reliability and low call-out rates matter more than features.",
+    status: "in-review",
+    owner: "wm-yuki",
+    memberIds: ["wm-yuki", "wm-alex", "wm-carlos", "wm-grace", "wm-fatima"],
+    productIds: ["p-nordvik-ellipse-bf380", "p-brightwater-family-bf440", "p-kestrel-homebase-bf420"],
+    dueDate: "2026-12-12",
+    updatedAt: "2026-11-22T14:48:00Z",
+    budget: 76800,
+    quantity: 64,
+    category: "refrigerators",
+    notes: [
+      { id: "prj-1-n1", author: "Yuki Sato", body: "All 64 openings measured by the maintenance team: 705–712 mm wide, 2050 mm high. The BF380, BF440 and BF420 are all 700 mm wide, so they fit with a few millimetres to spare.", date: "2026-11-04T10:12:00Z" },
+      { id: "prj-1-n2", author: "Fatima Al-Rashid", body: "The Nordvik is rated at 198 kWh/yr against 289 for the Kestrel. Over 10 years that's about 910 kWh less per unit, roughly 58 MWh across all 64 units. Worth including in the ESG report.", date: "2026-11-08T15:30:00Z" },
+      { id: "prj-1-n3", author: "Carlos Mendoza", body: "Larder & Co quoted $1,089 per unit for the Brightwater BF440, including delivery and haul-away, if we order 60 or more.", date: "2026-11-15T09:05:00Z" },
+    ],
+    comments: [
+      { id: "prj-1-c1", memberId: "wm-carlos", body: "Kestrel's 1-year warranty worries me. We had 9 call-outs on the old HomeBase units last year.", date: "2026-11-09T11:22:00Z" },
+      { id: "prj-1-c2", memberId: "wm-alex", body: "Agreed. I'd shortlist the Brightwater and Nordvik. The BF440 has 3,810 owner reviews at 4.5 stars, which is the most evidence of the three.", date: "2026-11-09T12:40:00Z" },
+      { id: "prj-1-c3", memberId: "wm-grace", body: "Budget allows $1,200 per unit including install. Please send the final recommendation with the per-unit landed cost.", date: "2026-11-18T16:02:00Z" },
+    ],
+    approvals: [
+      { id: "prj-1-a1", memberId: "wm-andre", decision: "approved", note: "Either model works operationally.", date: "2026-11-20T16:12:00Z" },
+      { id: "prj-1-a2", memberId: "wm-grace", decision: "pending", note: "Waiting on the landed-cost breakdown.", date: "2026-11-18T16:05:00Z" },
+    ],
+    activity: [
+      { id: "prj-1-x1", memberId: "wm-yuki", action: "created the project", date: "2026-11-03T09:00:00Z" },
+      { id: "prj-1-x2", memberId: "wm-yuki", action: "added 3 refrigerators to the shortlist", date: "2026-11-04T10:15:00Z" },
+      { id: "prj-1-x3", memberId: "wm-fatima", action: "attached an energy-cost comparison", date: "2026-11-08T15:31:00Z" },
+      { id: "prj-1-x4", memberId: "wm-yuki", action: "requested approval from Grace Thompson and André Baptiste", date: "2026-11-17T13:00:00Z" },
+      { id: "prj-1-x5", memberId: "wm-andre", action: "approved the shortlist", date: "2026-11-20T16:12:00Z" },
+    ],
+    snapshotIds: ["snap-prj1-1104", "snap-prj1-1117"],
+  },
+  {
+    id: "prj-2",
+    name: "Harbor Lofts — washer standardisation",
+    description: "Pick one front-load washer model for in-unit laundry closets across 3 loft buildings (118 units). Closets are 610 mm deep with stacking above.",
+    status: "active",
+    owner: "wm-carlos",
+    memberIds: ["wm-carlos", "wm-alex", "wm-tom", "wm-owen"],
+    productIds: ["p-brightwater-familywash-w9", "p-halden-pureclean-w9", "p-ovea-greencycle-w8", "p-brightwater-compact-w6"],
+    dueDate: "2027-01-30",
+    updatedAt: "2026-11-23T08:02:00Z",
+    budget: 94400,
+    quantity: 118,
+    category: "washing-machines",
+    notes: [
+      { id: "prj-2-n1", author: "Tom Kowalski", body: "Closets have 610 mm of depth before the door frame. Anything over 590 mm will stop the bifold doors from closing.", date: "2026-11-12T07:30:00Z" },
+      { id: "prj-2-n2", author: "Owen Reyes", body: "The Compact W6 is only 470 mm deep. It would solve the door problem, but 6 kg is small for two-bedroom units.", date: "2026-11-19T14:00:00Z" },
+    ],
+    comments: [
+      { id: "prj-2-c1", memberId: "wm-alex", body: "The Ovea is 575 mm deep and has a 3-year warranty. Can we get a bulk quote?", date: "2026-11-20T10:11:00Z" },
+      { id: "prj-2-c2", memberId: "wm-carlos", body: "Requested quotes from Larder & Co and BrightCart. Expecting them Friday.", date: "2026-11-23T08:02:00Z" },
+    ],
+    approvals: [],
+    activity: [
+      { id: "prj-2-x1", memberId: "wm-carlos", action: "created the project", date: "2026-11-10T08:00:00Z" },
+      { id: "prj-2-x2", memberId: "wm-tom", action: "added closet measurements", date: "2026-11-12T07:30:00Z" },
+      { id: "prj-2-x3", memberId: "wm-owen", action: "added Brightwater Compact W6 to the shortlist", date: "2026-11-19T14:01:00Z" },
+    ],
+    snapshotIds: [],
+  },
+  {
+    id: "prj-3",
+    name: "Model unit staging — Pier 9",
+    description: "Furnish two show apartments at Pier 9 with premium appliances and TVs for the spring leasing campaign.",
+    status: "approved",
+    owner: "wm-nina",
+    memberIds: ["wm-nina", "wm-alex", "wm-dana", "wm-grace"],
+    productIds: ["p-halden-precision-fd590", "p-lumora-vivid-oled55", "p-ovea-eco-fd520"],
+    dueDate: "2026-11-30",
+    updatedAt: "2026-11-14T13:22:00Z",
+    budget: 11200,
+    quantity: 2,
+    category: "refrigerators",
+    notes: [
+      { id: "prj-3-n1", author: "Nina Petrova", body: "Prospects comment on kitchens first. A quiet, good-looking French door fridge makes a real difference on tours.", date: "2026-10-28T12:00:00Z" },
+    ],
+    comments: [
+      { id: "prj-3-c1", memberId: "wm-dana", body: "Approve the Halden FD590 for both units. The extra cost is worth it for the show flats.", date: "2026-11-06T09:44:00Z" },
+    ],
+    approvals: [
+      { id: "prj-3-a1", memberId: "wm-dana", decision: "approved", note: "Approved as specified.", date: "2026-11-06T09:45:00Z" },
+      { id: "prj-3-a2", memberId: "wm-grace", decision: "approved", note: "Within the marketing budget.", date: "2026-11-07T15:20:00Z" },
+    ],
+    activity: [
+      { id: "prj-3-x1", memberId: "wm-nina", action: "created the project", date: "2026-10-27T10:00:00Z" },
+      { id: "prj-3-x2", memberId: "wm-dana", action: "approved the project", date: "2026-11-06T09:45:00Z" },
+      { id: "prj-3-x3", memberId: "wm-grace", action: "approved the project", date: "2026-11-07T15:20:00Z" },
+      { id: "prj-3-x4", memberId: "wm-alex", action: "placed the order with Larder & Co", date: "2026-11-14T13:22:00Z" },
+    ],
+    snapshotIds: ["snap-prj3-1106"],
+  },
+  {
+    id: "prj-4",
+    name: "Studio units — compact fridges",
+    description: "Find a compact under-counter fridge for 42 micro-studios at The Foundry. It must run quietly next to beds and fit an 860 mm counter height.",
+    status: "active",
+    owner: "wm-owen",
+    memberIds: ["wm-owen", "wm-fatima", "wm-carlos"],
+    productIds: ["p-ovea-eco-c160", "p-maru-cube-c120", "p-solenne-capri-u140", "p-kestrel-dorm-c90"],
+    dueDate: "2027-02-15",
+    updatedAt: "2026-11-23T06:58:00Z",
+    budget: 23100,
+    quantity: 42,
+    category: "refrigerators",
+    notes: [
+      { id: "prj-4-n1", author: "Fatima Al-Rashid", body: "The Ovea Eco Compact is rated at 33 dB(A) and the Kestrel Dorm at 41 dB(A). In a studio where the fridge sits next to the bed, that gap matters.", date: "2026-11-21T09:00:00Z" },
+    ],
+    comments: [
+      { id: "prj-4-c1", memberId: "wm-carlos", body: "The Solenne is lovely but $1,199 a unit blows the budget.", date: "2026-11-22T10:30:00Z" },
+    ],
+    approvals: [],
+    activity: [
+      { id: "prj-4-x1", memberId: "wm-owen", action: "created the project", date: "2026-11-20T08:00:00Z" },
+      { id: "prj-4-x2", memberId: "wm-fatima", action: "added noise comparison note", date: "2026-11-21T09:00:00Z" },
+    ],
+    snapshotIds: [],
+  },
+  {
+    id: "prj-5",
+    name: "Leasing office laptops",
+    description: "Replace 12 ageing laptops for leasing agents. Need a full day of battery for tours and a fingerprint reader for the CRM.",
+    status: "in-review",
+    owner: "wm-alex",
+    memberIds: ["wm-alex", "wm-nina", "wm-grace"],
+    productIds: ["p-vireo-meridian-14", "p-tervo-core-15", "p-tervo-air-14"],
+    dueDate: "2026-12-05",
+    updatedAt: "2026-11-21T19:30:00Z",
+    budget: 15600,
+    quantity: 12,
+    category: "laptops",
+    notes: [
+      { id: "prj-5-n1", author: "Alex Morgan", body: "Meridian 14 measured 12.1 h of battery, which covers a full day of tours. The Core 15 is cheaper but managed 8.9 h.", date: "2026-11-16T11:00:00Z" },
+    ],
+    comments: [
+      { id: "prj-5-c1", memberId: "wm-nina", body: "The agents would prefer something lighter. Several carry them between buildings all day.", date: "2026-11-17T09:12:00Z" },
+    ],
+    approvals: [
+      { id: "prj-5-a1", memberId: "wm-grace", decision: "changes", note: "Please price the Core 15 as an alternative for back-office staff.", date: "2026-11-21T19:30:00Z" },
+    ],
+    activity: [
+      { id: "prj-5-x1", memberId: "wm-alex", action: "created the project", date: "2026-11-15T10:00:00Z" },
+      { id: "prj-5-x2", memberId: "wm-alex", action: "requested approval from Grace Thompson", date: "2026-11-19T16:00:00Z" },
+      { id: "prj-5-x3", memberId: "wm-grace", action: "requested changes", date: "2026-11-21T19:30:00Z" },
+    ],
+    snapshotIds: ["snap-prj5-1119"],
+  },
+  {
+    id: "prj-6",
+    name: "Common room TVs — 2025 refresh",
+    description: "Replaced the TVs in resident lounges across 8 buildings.",
+    status: "archived",
+    owner: "wm-andre",
+    memberIds: ["wm-andre", "wm-alex", "wm-tom"],
+    productIds: ["p-kestrel-view-qled65", "p-maru-crystal-qled65"],
+    dueDate: "2025-12-15",
+    updatedAt: "2025-12-19T10:00:00Z",
+    budget: 6800,
+    quantity: 8,
+    category: "televisions",
+    notes: [
+      { id: "prj-6-n1", author: "André Baptiste", body: "We chose the Maru Crystal QLED 65 for its brighter panel. Lounges get a lot of daylight.", date: "2025-11-30T10:00:00Z" },
+    ],
+    comments: [
+      { id: "prj-6-c1", memberId: "wm-tom", body: "All 8 are mounted. Used the anti-tip straps in the two lounges with kids' areas.", date: "2025-12-18T15:00:00Z" },
+    ],
+    approvals: [
+      { id: "prj-6-a1", memberId: "wm-alex", decision: "approved", note: "Approved at $1,049 per unit, delivered.", date: "2025-12-01T09:00:00Z" },
+    ],
+    activity: [
+      { id: "prj-6-x1", memberId: "wm-andre", action: "created the project", date: "2025-11-20T09:00:00Z" },
+      { id: "prj-6-x2", memberId: "wm-alex", action: "approved the project", date: "2025-12-01T09:00:00Z" },
+      { id: "prj-6-x3", memberId: "wm-andre", action: "archived the project", date: "2025-12-19T10:00:00Z" },
+    ],
+    snapshotIds: [],
+  },
+];
+
+export function getProject(id: string): ResearchProject | undefined {
+  return projects.find((p) => p.id === id);
+}

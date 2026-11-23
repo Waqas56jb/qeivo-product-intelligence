@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+<defs>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3"/></filter>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="0.15">
+<stop offset="0" stop-color="#FFFFFF"/><stop offset="0.55" stop-color="#F6F8F9"/><stop offset="1" stop-color="#E8ECEF"/></linearGradient>
+<linearGradient id="g-h" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#BCC5CC"/><stop offset="0.5" stop-color="#F4F6F8"/><stop offset="1" stop-color="#BCC5CC"/></linearGradient>
+<linearGradient id="g-hh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4F6F8"/><stop offset="1" stop-color="#BCC5CC"/></linearGradient>
+<linearGradient id="g-gloss" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.18" stop-color="#fff" stop-opacity="0.38"/><stop offset="0.32" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<pattern id="g-brush" width="6" height="800" patternUnits="userSpaceOnUse"><rect width="6" height="800" fill="none"/><line x1="1" y1="0" x2="1" y2="800" stroke="#fff" stroke-opacity="0.07"/><line x1="4" y1="0" x2="4" y2="800" stroke="#000" stroke-opacity="0.025"/></pattern><radialGradient id="ring" cx="0.4" cy="0.35" r="0.75"><stop offset="0" stop-color="#F7F9FA"/><stop offset="0.7" stop-color="#AEB8C1"/><stop offset="1" stop-color="#6E7A85"/></radialGradient>
+<radialGradient id="glass" cx="0.45" cy="0.4" r="0.7"><stop offset="0" stop-color="#4A6B86"/><stop offset="0.6" stop-color="#1D2E40"/><stop offset="1" stop-color="#0D1621"/></radialGradient>
+</defs>
+<ellipse cx="400" cy="728" rx="240" ry="16" fill="#0B1420" opacity="0.22" filter="url(#blur)"/>
+<path d="M587 206 L613 216 L613 716 L587 720 Z" fill="#DCE2E6" stroke="#CDD5DB"/><rect x="187" y="200" width="400" height="520" rx="14" fill="url(#g)" stroke="#CDD5DB" stroke-width="1.5"/>
+
+<rect x="187" y="200" width="400" height="520" rx="14" fill="url(#g-gloss)"/><line x1="187" y1="288" x2="587" y2="288" stroke="#CDD5DB" stroke-width="1.5"/><rect x="205" y="222" width="110" height="44" rx="6" fill="#E8ECEF" stroke="#CDD5DB"/><rect x="215" y="240" width="40" height="6" rx="3" fill="#CDD5DB"/><rect x="357" y="228" width="110" height="32" rx="6" fill="#0E1621"/><text x="377" y="250" font-family="monospace" font-size="16" fill="#43D5C2">1:18</text><circle cx="529" cy="244" r="24" fill="url(#g-h)" stroke="#CDD5DB"/><circle cx="529" cy="244" r="4" fill="#BCC5CC"/><circle cx="387" cy="500" r="164" fill="#E8ECEF" stroke="#CDD5DB" stroke-width="2"/><circle cx="387" cy="500" r="150" fill="url(#ring)"/><circle cx="387" cy="500" r="124" fill="url(#glass)"/><path d="M304.5 447.5 A 105 105 0 0 1 394.5 398" stroke="#fff" stroke-opacity="0.45" stroke-width="10" fill="none" stroke-linecap="round"/><rect x="529" y="470" width="14" height="60" rx="6" fill="#BCC5CC"/><rect x="199" y="716" width="376" height="10" rx="3" fill="#1A222C" opacity="0.6"/>
+</svg>
